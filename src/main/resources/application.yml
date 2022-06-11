@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      database: inshorts
+      uri: mongodb://localhost:27017
+
+server:
+  error:
+    include-message: always
